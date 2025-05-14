@@ -30,7 +30,7 @@ def main(*args):
     )
 
     # create central complex compass + integrator
-    memory_update = False
+    memory_update = True
     cx = MinimalDeviceCX(update=memory_update)
     print(cx)
 
